@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B6EE1CA2BFD1DBA004804F0 /* RamdonUserAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6EE1C92BFD1DBA004804F0 /* RamdonUserAppApp.swift */; };
+		3B6EE1CC2BFD1DBA004804F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6EE1CB2BFD1DBA004804F0 /* ContentView.swift */; };
+		3B6EE1CE2BFD1DBB004804F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B6EE1CD2BFD1DBB004804F0 /* Assets.xcassets */; };
+		3B6EE1D12BFD1DBB004804F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B6EE1D02BFD1DBB004804F0 /* Preview Assets.xcassets */; };
+		3B6EE1DB2BFD1DBC004804F0 /* RamdonUserAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6EE1DA2BFD1DBC004804F0 /* RamdonUserAppTests.swift */; };
+		3B6EE1E52BFD1DBC004804F0 /* RamdonUserAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6EE1E42BFD1DBC004804F0 /* RamdonUserAppUITests.swift */; };
+		3B6EE1E72BFD1DBC004804F0 /* RamdonUserAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6EE1E62BFD1DBC004804F0 /* RamdonUserAppUITestsLaunchTests.swift */; };
+		3B6EE1F42BFD3073004804F0 /* RamdonUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6EE1F32BFD3073004804F0 /* RamdonUserModel.swift */; };
+		3B6EE1F72BFD3270004804F0 /* RamdonUserViewmodel .swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6EE1F62BFD3270004804F0 /* RamdonUserViewmodel .swift */; };
+		3B7BEF7F2C01A67B0006BA35 /* MockUserData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B7BEF7E2C01A67B0006BA35 /* MockUserData.json */; };
+		3B94E1E22BFEE34E00BA626E /* DetailView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B94E1E12BFEE34D00BA626E /* DetailView .swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B6EE1D72BFD1DBB004804F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B6EE1BE2BFD1DBA004804F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B6EE1C52BFD1DBA004804F0;
+			remoteInfo = RamdonUserApp;
+		};
+		3B6EE1E12BFD1DBC004804F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B6EE1BE2BFD1DBA004804F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B6EE1C52BFD1DBA004804F0;
+			remoteInfo = RamdonUserApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B6EE1C62BFD1DBA004804F0 /* RamdonUserApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RamdonUserApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6EE1C92BFD1DBA004804F0 /* RamdonUserAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamdonUserAppApp.swift; sourceTree = "<group>"; };
+		3B6EE1CB2BFD1DBA004804F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B6EE1CD2BFD1DBB004804F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B6EE1D02BFD1DBB004804F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B6EE1D62BFD1DBB004804F0 /* RamdonUserAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RamdonUserAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6EE1DA2BFD1DBC004804F0 /* RamdonUserAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamdonUserAppTests.swift; sourceTree = "<group>"; };
+		3B6EE1E02BFD1DBC004804F0 /* RamdonUserAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RamdonUserAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6EE1E42BFD1DBC004804F0 /* RamdonUserAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamdonUserAppUITests.swift; sourceTree = "<group>"; };
+		3B6EE1E62BFD1DBC004804F0 /* RamdonUserAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamdonUserAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B6EE1F32BFD3073004804F0 /* RamdonUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamdonUserModel.swift; sourceTree = "<group>"; };
+		3B6EE1F62BFD3270004804F0 /* RamdonUserViewmodel .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RamdonUserViewmodel .swift"; sourceTree = "<group>"; };
+		3B7BEF7E2C01A67B0006BA35 /* MockUserData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockUserData.json; sourceTree = "<group>"; };
+		3B94E1E12BFEE34D00BA626E /* DetailView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailView .swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B6EE1C32BFD1DBA004804F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6EE1D32BFD1DBB004804F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6EE1DD2BFD1DBC004804F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B6EE1BD2BFD1DBA004804F0 = {
+			isa = PBXGroup;
+			children = (
+				3BCFB4892BFDA1EC00806085 /* View */,
+				3B6EE1F82BFD3278004804F0 /* ViewModel  */,
+				3B6EE1F52BFD307A004804F0 /* Model */,
+				3B6EE1C82BFD1DBA004804F0 /* RamdonUserApp */,
+				3B6EE1D92BFD1DBB004804F0 /* RamdonUserAppTests */,
+				3B6EE1E32BFD1DBC004804F0 /* RamdonUserAppUITests */,
+				3B6EE1C72BFD1DBA004804F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B6EE1C72BFD1DBA004804F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B6EE1C62BFD1DBA004804F0 /* RamdonUserApp.app */,
+				3B6EE1D62BFD1DBB004804F0 /* RamdonUserAppTests.xctest */,
+				3B6EE1E02BFD1DBC004804F0 /* RamdonUserAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B6EE1C82BFD1DBA004804F0 /* RamdonUserApp */ = {
+			isa = PBXGroup;
+			children = (
+				3B6EE1C92BFD1DBA004804F0 /* RamdonUserAppApp.swift */,
+				3B6EE1CD2BFD1DBB004804F0 /* Assets.xcassets */,
+				3B6EE1CF2BFD1DBB004804F0 /* Preview Content */,
+			);
+			path = RamdonUserApp;
+			sourceTree = "<group>";
+		};
+		3B6EE1CF2BFD1DBB004804F0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3B6EE1D02BFD1DBB004804F0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3B6EE1D92BFD1DBB004804F0 /* RamdonUserAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B6EE1DA2BFD1DBC004804F0 /* RamdonUserAppTests.swift */,
+				3B7BEF7E2C01A67B0006BA35 /* MockUserData.json */,
+			);
+			path = RamdonUserAppTests;
+			sourceTree = "<group>";
+		};
+		3B6EE1E32BFD1DBC004804F0 /* RamdonUserAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B6EE1E42BFD1DBC004804F0 /* RamdonUserAppUITests.swift */,
+				3B6EE1E62BFD1DBC004804F0 /* RamdonUserAppUITestsLaunchTests.swift */,
+			);
+			path = RamdonUserAppUITests;
+			sourceTree = "<group>";
+		};
+		3B6EE1F52BFD307A004804F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B6EE1F32BFD3073004804F0 /* RamdonUserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B6EE1F82BFD3278004804F0 /* ViewModel  */ = {
+			isa = PBXGroup;
+			children = (
+				3B6EE1F62BFD3270004804F0 /* RamdonUserViewmodel .swift */,
+			);
+			path = "ViewModel ";
+			sourceTree = "<group>";
+		};
+		3BCFB4892BFDA1EC00806085 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B94E1E12BFEE34D00BA626E /* DetailView .swift */,
+				3B6EE1CB2BFD1DBA004804F0 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B6EE1C52BFD1DBA004804F0 /* RamdonUserApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6EE1EA2BFD1DBC004804F0 /* Build configuration list for PBXNativeTarget "RamdonUserApp" */;
+			buildPhases = (
+				3B6EE1C22BFD1DBA004804F0 /* Sources */,
+				3B6EE1C32BFD1DBA004804F0 /* Frameworks */,
+				3B6EE1C42BFD1DBA004804F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RamdonUserApp;
+			productName = RamdonUserApp;
+			productReference = 3B6EE1C62BFD1DBA004804F0 /* RamdonUserApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B6EE1D52BFD1DBB004804F0 /* RamdonUserAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6EE1ED2BFD1DBC004804F0 /* Build configuration list for PBXNativeTarget "RamdonUserAppTests" */;
+			buildPhases = (
+				3B6EE1D22BFD1DBB004804F0 /* Sources */,
+				3B6EE1D32BFD1DBB004804F0 /* Frameworks */,
+				3B6EE1D42BFD1DBB004804F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B6EE1D82BFD1DBB004804F0 /* PBXTargetDependency */,
+			);
+			name = RamdonUserAppTests;
+			productName = RamdonUserAppTests;
+			productReference = 3B6EE1D62BFD1DBB004804F0 /* RamdonUserAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B6EE1DF2BFD1DBC004804F0 /* RamdonUserAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6EE1F02BFD1DBC004804F0 /* Build configuration list for PBXNativeTarget "RamdonUserAppUITests" */;
+			buildPhases = (
+				3B6EE1DC2BFD1DBC004804F0 /* Sources */,
+				3B6EE1DD2BFD1DBC004804F0 /* Frameworks */,
+				3B6EE1DE2BFD1DBC004804F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B6EE1E22BFD1DBC004804F0 /* PBXTargetDependency */,
+			);
+			name = RamdonUserAppUITests;
+			productName = RamdonUserAppUITests;
+			productReference = 3B6EE1E02BFD1DBC004804F0 /* RamdonUserAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B6EE1BE2BFD1DBA004804F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3B6EE1C52BFD1DBA004804F0 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					3B6EE1D52BFD1DBB004804F0 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3B6EE1C52BFD1DBA004804F0;
+					};
+					3B6EE1DF2BFD1DBC004804F0 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3B6EE1C52BFD1DBA004804F0;
+					};
+				};
+			};
+			buildConfigurationList = 3B6EE1C12BFD1DBA004804F0 /* Build configuration list for PBXProject "RamdonUserApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B6EE1BD2BFD1DBA004804F0;
+			packageReferences = (
+			);
+			productRefGroup = 3B6EE1C72BFD1DBA004804F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B6EE1C52BFD1DBA004804F0 /* RamdonUserApp */,
+				3B6EE1D52BFD1DBB004804F0 /* RamdonUserAppTests */,
+				3B6EE1DF2BFD1DBC004804F0 /* RamdonUserAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B6EE1C42BFD1DBA004804F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6EE1D12BFD1DBB004804F0 /* Preview Assets.xcassets in Resources */,
+				3B6EE1CE2BFD1DBB004804F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6EE1D42BFD1DBB004804F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7BEF7F2C01A67B0006BA35 /* MockUserData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6EE1DE2BFD1DBC004804F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B6EE1C22BFD1DBA004804F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6EE1CC2BFD1DBA004804F0 /* ContentView.swift in Sources */,
+				3B6EE1F72BFD3270004804F0 /* RamdonUserViewmodel .swift in Sources */,
+				3B6EE1F42BFD3073004804F0 /* RamdonUserModel.swift in Sources */,
+				3B6EE1CA2BFD1DBA004804F0 /* RamdonUserAppApp.swift in Sources */,
+				3B94E1E22BFEE34E00BA626E /* DetailView .swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6EE1D22BFD1DBB004804F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6EE1DB2BFD1DBC004804F0 /* RamdonUserAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6EE1DC2BFD1DBC004804F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6EE1E72BFD1DBC004804F0 /* RamdonUserAppUITestsLaunchTests.swift in Sources */,
+				3B6EE1E52BFD1DBC004804F0 /* RamdonUserAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B6EE1D82BFD1DBB004804F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B6EE1C52BFD1DBA004804F0 /* RamdonUserApp */;
+			targetProxy = 3B6EE1D72BFD1DBB004804F0 /* PBXContainerItemProxy */;
+		};
+		3B6EE1E22BFD1DBC004804F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B6EE1C52BFD1DBA004804F0 /* RamdonUserApp */;
+			targetProxy = 3B6EE1E12BFD1DBC004804F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B6EE1E82BFD1DBC004804F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B6EE1E92BFD1DBC004804F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B6EE1EB2BFD1DBC004804F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RamdonUserApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lr.practica.RamdonUserApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B6EE1EC2BFD1DBC004804F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RamdonUserApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lr.practica.RamdonUserApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B6EE1EE2BFD1DBC004804F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lr.practica.RamdonUserAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RamdonUserApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RamdonUserApp";
+			};
+			name = Debug;
+		};
+		3B6EE1EF2BFD1DBC004804F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lr.practica.RamdonUserAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RamdonUserApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RamdonUserApp";
+			};
+			name = Release;
+		};
+		3B6EE1F12BFD1DBC004804F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lr.practica.RamdonUserAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RamdonUserApp;
+			};
+			name = Debug;
+		};
+		3B6EE1F22BFD1DBC004804F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lr.practica.RamdonUserAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RamdonUserApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B6EE1C12BFD1DBA004804F0 /* Build configuration list for PBXProject "RamdonUserApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6EE1E82BFD1DBC004804F0 /* Debug */,
+				3B6EE1E92BFD1DBC004804F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B6EE1EA2BFD1DBC004804F0 /* Build configuration list for PBXNativeTarget "RamdonUserApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6EE1EB2BFD1DBC004804F0 /* Debug */,
+				3B6EE1EC2BFD1DBC004804F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B6EE1ED2BFD1DBC004804F0 /* Build configuration list for PBXNativeTarget "RamdonUserAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6EE1EE2BFD1DBC004804F0 /* Debug */,
+				3B6EE1EF2BFD1DBC004804F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B6EE1F02BFD1DBC004804F0 /* Build configuration list for PBXNativeTarget "RamdonUserAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6EE1F12BFD1DBC004804F0 /* Debug */,
+				3B6EE1F22BFD1DBC004804F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B6EE1BE2BFD1DBA004804F0 /* Project object */;
+}

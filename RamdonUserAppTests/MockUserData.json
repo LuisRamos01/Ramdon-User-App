@@ -1,0 +1,31 @@
+
+[
+    {
+        "name": {
+            "first": "Luis",
+            "last": "Ramos"
+        },
+        "email": "luis@example.com",
+        "picture": {
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/54.jpg",
+            "large": "https://randomuser.me/api/portraits/men/54.jpg"
+        },
+        "login": {
+            "password": "password123"
+        }
+    },
+    {
+        "name": {
+            "first": "John",
+            "last": "Doe"
+        },
+        "email": "john@example.com",
+        "picture": {
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/55.jpg",
+            "large": "https://randomuser.me/api/portraits/men/55.jpg"
+        },
+        "login": {
+            "password": "password456"
+        }
+    }
+]
